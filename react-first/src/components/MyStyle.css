@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gowun+Batang&family=Gowun+Dodum&family=Hahmlet:wght@100&family=Nanum+Myeongjo&family=Song+Myung&display=swap');
+
+h2.line{
+    width: 500px;
+    font-family: 'Comic Sans MS';
+    border: 5px groove gold;
+    text-align: center;
+}
+
+div.inp{
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+    padding: 30px 30px;
+    font-size: 20px;
+    font-family: 'East Sea Dokdo';
+}
+
+div.inp span{
+    color: red;
+}
+
+div.result{
+    position: relative;
+    left: 400px;
+    top: -150px;
+    width: 250px;
+    height: 250px;
+    border: 5px inset pink;
+    padding: 30px 30px;
+    font-size: 20px;
+    font-family: 'East Sea Dokdo';
+}
+
+div.circle{
+    width: 150px;
+    height: 150px;
+    border: 3px solid pink;
+    border-radius: 300px;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+div.circle b{
+    font-size: 3em;
+
+}
+
+button{
+    width: 70px;
+}
