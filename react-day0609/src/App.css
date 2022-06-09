@@ -1,0 +1,60 @@
+.number{
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px gray;
+  font-family: 'Single day';
+}
+
+h1{
+  margin-left: 20px;
+}
+
+h1 div{
+  width: 80px;
+  height: 20px;
+  border: 1px solid gray;
+  float: left;
+  margin-left: 12px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(49, 47, 47);
+}
+
+.select1{
+  margin-left: 30px;
+  width: 80px;
+  text-align: center;
+}
+
+input{
+  height: 20px;
+  text-align: center;
+}
+
+.s1{
+  position: absolute;
+  left: 115px;
+  font-size: 15px;
+}
+
+.s2{
+  position: absolute;
+  left: 205px;
+  font-size: 15px;
+}
+
+.photo{
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}
+
+.greenline{
+  border-color: green;
+  border-width: 10px;
+  margin-left: 30px;
+  padding: 10px 10px;
+}

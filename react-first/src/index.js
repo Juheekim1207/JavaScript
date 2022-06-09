@@ -9,6 +9,7 @@ import ThirdApp from './components/ThirdApp';
 import FourthApp from './components/FourthApp';
 import FifthApp from './components/FifthApp';
 import SixthApp from './components/SixthApp';
+import FifthExercise from './components/FifthExercise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <SecondApp/> */}
     {/* <ThirdApp/> */}
     {/* <FourthApp/> */}
-    <FifthApp/>
+    {/* <FifthApp/> */}
+    <FifthExercise/>
     {/* <SixthApp/> */}
   </React.StrictMode>
 );

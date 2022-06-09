@@ -51,3 +51,43 @@ div.circle b{
 button{
     width: 70px;
 }
+
+div.box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 240px;
+    text-align: center; 
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'East Sea Dokdo';
+}
+
+div.box input{
+    width: 120px;
+    height: 20px;
+    text-align: center; 
+    border: none;
+}
+
+div.result1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 240px;
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin: 100px 100px;
+    position: absolute;
+    left: 280px;
+    top: 0px;
+    font-family: 'East Sea Dokdo';
+    font-size: 1.5em;
+}
+
+#btn1{
+    margin-left:'100px';
+    margin-top:'20px';
+    width:'240px';
+    font-family:'East Sea Dokdo';
+}
