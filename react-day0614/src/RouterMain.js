@@ -3,6 +3,7 @@ import './App.css';
 import {Route,Routes} from 'react-router-dom';
 import {Home,About,Food} from './pages' //자동으로 pages의 index.js가 import
 import Menu from "./components/Menu";
+import foodimg from './image2/11.jpg';
 
 const RouterMain=()=>{
     return(
@@ -10,7 +11,8 @@ const RouterMain=()=>{
             {/* 모든 페이지에 공통으로 포함되는 컴포넌트나 이미지 */}
             <h1 className="alert alert-info title">React Router 공부하기</h1>
             <Menu/>
-            <img src={`${process.env.PUBLIC_URL}/image/11.jpg`} alt="" className="main_photo"/>
+            {/* <img src={`${process.env.PUBLIC_URL}/image/11.jpg`} alt="" className="main_photo"/> */}
+            <img src={foodimg} alt="" className="main_photo"/>
             <hr className="line" align="left"/>
             <div className="main_comp">
                 <Routes>
