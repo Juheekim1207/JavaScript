@@ -95,5 +95,96 @@ div.info{
  img.middleImg {
   width: 1000px;
  }
- 
 
+ img.small{
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  margin-right: 10px;
+ }
+
+ div.detail{ 
+  width: 1000px;
+  text-align: center;
+  padding-left: 50px;
+ }
+
+ div.detail img{ 
+  float: left;
+  width: 400px;
+}
+  div.d_img{
+  width: 500px;
+
+ } 
+
+ div.d_title{
+  width: 400px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 80px;
+ }
+ 
+ div.d_btn{
+  clear: both;
+ }
+
+ div.d_btn button{
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 50px;
+ }
+
+ h3.num{
+  float: left;
+ }
+
+ div.rowItem{
+  float: left;
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+ }
+
+ button.d_btn{
+  background-color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid #9bce26;
+  color: gray;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+ }
+
+ button.d_btn:hover{
+  border: 1px solid white;
+  background-color: #9bce26;
+ }
+
+ h2.shopList{
+  text-align: center;
+ }
+
+ button.l_btn{
+  width: 100px; 
+  height: 30px;
+  float: right;
+  background-color: #9bce26;
+  border:1px solid  white;
+  border-radius: 5px;
+  color: white;
+ }
+
+ table.shopForm tr td{
+  padding-top: 10px;
+ }
+
+ table.shopForm{
+  text-align: center;
+ }
+
+ table.shopForm tr td button{
+  margin-top: 30px;
+}
